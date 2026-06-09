@@ -1,5 +1,2 @@
-FROM node:18-alpine
-WORKDIR /data
-RUN npm install -g n8n
+FROM n8nio/n8n:latest
 EXPOSE 5678
-CMD ["n8n", "start"]
